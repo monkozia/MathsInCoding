@@ -12,6 +12,11 @@ class mathsFunctions:
 		while a>0:
 			fac=a*a-1
 			a=a-1
-		return fac
-	def sqrt(a):
+		return(fac)
+	def power(a,b):
+		while b>0:
+			ans=a*a
+			b=b-1
+			
+		return(ans)
 		
